@@ -52,3 +52,12 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC just adding a comment to check sync...
+
+# COMMAND ----------
+
+df.count()
